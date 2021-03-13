@@ -46,6 +46,14 @@
 
 <!-- BEGIN BODY -->
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-user"></i> Profile</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-gratipay"></i> Wishlist</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-shopping-basket"></i> Cart</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-history"></i> Orders</a>
+    <a href="../Login_v11/index.html" style="font-size: 2ch;"><i class="fa fa-sign-in"></i> Login</a>
+  </div>
   <div class="wrap">
     <!-- TOP CONTACT ROW -->
     <div class="container">
@@ -55,7 +63,8 @@
             <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 12345 67890</a>
             <a href="#">
               <span class="fa fa-paper-plane mr-1"></span>
-              <span class="__cf_email__" data-cfemail="671e081215020a060e0b27020a060e0b4904080a">[email&#160;protected]</span>
+              <span class="__cf_email__"
+                data-cfemail="671e081215020a060e0b27020a060e0b4904080a">[email&#160;protected]</span>
             </a>
           </p>
         </div>
@@ -64,10 +73,16 @@
         <div class="col-md-6 d-flex justify-content-md-end">
           <div class="social-media">
             <p class="mb-0 d-flex">
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i class="sr-only">Whatsapp</i></span></a>
+              <!--<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-gratipay" style="font-size: 2.0ch;"><i
+                    class="sr-only">Facebook</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-shopping-cart" style="font-size: 2.0ch;"><i
+                    class="sr-only">Twitter</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram" style="font-size: 2.0ch;"><i
+                    class="sr-only">Instagram</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp" style="font-size: 2.0ch;"><i
+                    class="sr-only">Whatsapp</i></span></a>-->
+                    
+                    <span style="font-size:2.8ch;cursor:pointer;color:#fff;right: 0.5ch;" onclick="openNav()" class="fa fa-bars"></span>
             </p>
           </div>
         </div>
@@ -134,7 +149,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="cart.html" style="font-weight: bold;">Add to cart</a></div>
+                <div class="col-sm-5 pl-sm-0"><a class="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></div>
               </div><a class="btn btn-link text-dark p-0" href="#"><i class="fa fa-heart mr-2"></i>Add to wish list</a>
             </div>
           </div>
@@ -277,7 +292,11 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
+<<<<<<< HEAD
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
+=======
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+>>>>>>> a23667b32bd551b95277ecb983cd924a4304522d
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -294,7 +313,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -311,7 +330,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -328,7 +347,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -345,7 +364,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -362,7 +381,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -380,7 +399,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -397,7 +416,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -414,7 +433,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -431,7 +450,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -448,7 +467,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -465,7 +484,7 @@
                   <div class="product-overlay">
                     <ul class="mb-0 list-inline">
                       <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-outline-dark" href="#"><i class="fa fa-heart"></i></a></li>
-                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="cart.html" style="font-weight: bold;">Add to cart</a></li>
+                      <li class="list-inline-item m-0 p-0"><a class="btn btn-sm btn-dark" href="../../../Login_v11/index.html" style="font-weight: bold;">Add to cart</a></li>
                       <li class="list-inline-item mr-0"><a class="btn btn-sm btn-outline-dark" href="#productView" data-toggle="modal"><i class="fa fa-expand"></i></a></li>
                     </ul>
                   </div>
@@ -616,7 +635,15 @@ Feeling Stressed? Learn the Health Benefits of Having a Pet</a></h3>
   // pls don't forget to change to your domain :)
   injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
 </script>
-
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}

@@ -30,6 +30,14 @@
 <!-- BEGIN BODY -->
 
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-user"></i> Profile</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-gratipay"></i> Wishlist</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-shopping-basket"></i> Cart</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-history"></i> Orders</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-sign-in"></i> Login</a>
+  </div>
   <div class="wrap">
     <!-- TOP CONTACT ROW -->
     <div class="container">
@@ -49,14 +57,16 @@
         <div class="col-md-6 d-flex justify-content-md-end">
           <div class="social-media">
             <p class="mb-0 d-flex">
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
+              <!--<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-gratipay" style="font-size: 2.0ch;"><i
                     class="sr-only">Facebook</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-shopping-cart" style="font-size: 2.0ch;"><i
                     class="sr-only">Twitter</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram" style="font-size: 2.0ch;"><i
                     class="sr-only">Instagram</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i
-                    class="sr-only">Whatsapp</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp" style="font-size: 2.0ch;"><i
+                    class="sr-only">Whatsapp</i></span></a>-->
+                    
+                    <span style="font-size:2.8ch;cursor:pointer;color:#fff;right: 0.5ch;" onclick="openNav()" class="fa fa-bars"></span>
             </p>
           </div>
         </div>
@@ -871,6 +881,16 @@
   <script src="sourceCode\theme\getpetgo\js\main.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }

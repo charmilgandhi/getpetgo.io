@@ -20,28 +20,49 @@
 <link rel="shortcut icon" href="logo.png">
 </head>
 <body>
-<div class="wrap">
-<div class="container">
-<div class="row">
-<div class="col-md-6 d-flex align-items-center">
-<p class="mb-0 phone pl-md-2">
-<a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 12345 67890</a>
-<a href="#"><span class="fa fa-paper-plane mr-1"></span> <span class="__cf_email__" data-cfemail="5c2533292e39313d35301c39313d3530723f3331">[email&#160;protected]</span></a>
-</p>
-</div>
-<div class="col-md-6 d-flex justify-content-md-end">
-<div class="social-media">
-<p class="mb-0 d-flex">
-<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp"><i class="sr-only">Whatsapp</i></span></a>
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-user"></i> Profile</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-gratipay"></i> Wishlist</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-shopping-basket"></i> Cart</a>
+    <a href="#" style="font-size: 2ch;"><i class="fa fa-history"></i> Orders</a>
+    <a href="../Login_v11/index.html" style="font-size: 2ch;"><i class="fa fa-sign-in"></i> Login</a>
+  </div>
+  <div class="wrap">
+    <!-- TOP CONTACT ROW -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center">
+          <p class="mb-0 phone pl-md-2">
+            <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 12345 67890</a>
+            <a href="#">
+              <span class="fa fa-paper-plane mr-1"></span>
+              <span class="__cf_email__"
+                data-cfemail="671e081215020a060e0b27020a060e0b4904080a">[email&#160;protected]</span>
+            </a>
+          </p>
+        </div>
+
+        <!-- ADDING SOCIAL MEDIA ICONS -->
+        <div class="col-md-6 d-flex justify-content-md-end">
+          <div class="social-media">
+            <p class="mb-0 d-flex">
+              <!--<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-gratipay" style="font-size: 2.0ch;"><i
+                    class="sr-only">Facebook</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-shopping-cart" style="font-size: 2.0ch;"><i
+                    class="sr-only">Twitter</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram" style="font-size: 2.0ch;"><i
+                    class="sr-only">Instagram</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp" style="font-size: 2.0ch;"><i
+                    class="sr-only">Whatsapp</i></span></a>-->
+                    
+                    <span style="font-size:2.8ch;cursor:pointer;color:#fff;right: 0.5ch;" onclick="openNav()" class="fa fa-bars"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
 <a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>GetPetGo</a>
@@ -275,6 +296,15 @@ Why Are Dogs Given Up?</a></h3>
 <script src="js/main.js"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
