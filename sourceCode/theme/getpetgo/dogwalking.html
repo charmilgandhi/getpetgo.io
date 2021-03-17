@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- BEGIN HEAD -->
+
+<head>
+    <title>GetPetGo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- GOOGLE FONTS API -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- INLCUDING ALL THE CSS FILES -->
+    <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.theme.default.css">
+
+    <!--<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">-->
+
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+
+    <!--<link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css">-->
+
+    <!-- Google fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="logo.png">
+
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" style="font-size: 2ch;"><i class="fa fa-user"></i> Profile</a>
+        <a href="#" style="font-size: 2ch;"><i class="fa fa-gratipay"></i> Wishlist</a>
+        <a href="#" style="font-size: 2ch;"><i class="fa fa-shopping-basket"></i> Cart</a>
+        <a href="#" style="font-size: 2ch;"><i class="fa fa-history"></i> Orders</a>
+        <a href="../Login_v11/index.html" style="font-size: 2ch;"><i class="fa fa-sign-in"></i> Login</a>
+      </div>
+      <div class="wrap">
+        <!-- TOP CONTACT ROW -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+              <p class="mb-0 phone pl-md-2">
+                <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 12345 67890</a>
+                <a href="#">
+                  <span class="fa fa-paper-plane mr-1"></span>
+                  <span class="__cf_email__"
+                    data-cfemail="671e081215020a060e0b27020a060e0b4904080a">[email&#160;protected]</span>
+                </a>
+              </p>
+            </div>
+    
+            <!-- ADDING SOCIAL MEDIA ICONS -->
+            <div class="col-md-6 d-flex justify-content-md-end">
+              <div class="social-media">
+                <p class="mb-0 d-flex">
+                  <!--<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-gratipay" style="font-size: 2.0ch;"><i
+                        class="sr-only">Facebook</i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-shopping-cart" style="font-size: 2.0ch;"><i
+                        class="sr-only">Twitter</i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram" style="font-size: 2.0ch;"><i
+                        class="sr-only">Instagram</i></span></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-whatsapp" style="font-size: 2.0ch;"><i
+                        class="sr-only">Whatsapp</i></span></a>-->
+                        
+                        <span style="font-size:2.8ch;cursor:pointer;color:#fff;right: 0.5ch;" onclick="openNav()" class="fa fa-bars"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>GetPetGo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+               <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="../getpetgo/index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="../getpetgo/shopHome.html" class="nav-link">Shop</a></li>
+          <li class="nav-item active"><a href="#" class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown" >Pet Care</a>
+            <ul class="dropdown-menu dropdown-menu-right">
+		            <li><a class="dropdown-item " href="../getpetgo/vet.html" style="font-size: 16px;"> Veterinarian</a></li>
+		            <li><a class="dropdown-item" href="../getpetgo/services.html" style="font-size: 16px;"> Services </a></li>
+	          </ul>
+          </li>
+          <!--<li class="nav-item"><a href="services.html" class="nav-link">Blog(Services)</a></li>-->
+          <!--<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>-->
+          <!--<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>-->
+          <li class="nav-item"><a href="#" class="nav-link">Special Places</a></li>
+          <li class="nav-item"><a href="../getpetgo/blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="../getpetgo/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row d-flex">
+                <!-- 1 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-1.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> Bunny Bhai</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Navrangpura, Ah'bad</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>2.5 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>200 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		<!-- 2 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-2.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> Sumita </p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Satelite, Ah'bad</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>5.8 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>310 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-3.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> Zalak Shah </p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Nikol, Ah'bad</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>4.5 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>250 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		<!-- 4 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-4.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> Proactive </p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Varaccha, Surat</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>3.8 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>170 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		<!-- 5 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-5.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> Dogman </p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Maninagar, Ah'bad</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>1.5 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>100 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		<!-- 6 - dog walker  -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry align-self-stretch">
+                        <a href="blog-single.html" class="block-20 rounded"
+                            style="background-image: url('images/dogwalker-6.jpg');">
+                        </a>
+                        <div class="text p-3">
+                            <div class="meta mb-1  text-center">
+                                <div class="w-100">
+                                    <p class="m-1 h3"> ShilpaWalker </p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Location : </strong>Navrangpura, Ah'bad</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>Distance : </strong>7.5 km</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-2 h6 text-capitalize"><strong>From : </strong>350 Rs./walk</p>
+                                </div>
+                                <div class="w-100">
+                                    <p class="m-3 p-2 bg-success text-white">
+                                        <a href="" class="text-white">
+                                            Walk your dog with me
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <div class="block-27">
+                        <ul>
+                            <li><a href="#">&lt;</a></li>
+                            <li class="active"><span>1</span></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+        <h2 class="footer-heading">GetPetGo</h2>
+        <p>Highest Quality Care For Pets You'll Love</p>
+        <ul class="ftco-footer-social p-0">
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+        <h2 class="footer-heading">Latest News</h2>
+        <div class="block-21 mb-4 d-flex">
+          <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
+          <div class="text">
+            <h3 class="heading"><a href="#">Why Are Dogs Given Up?</a></h3>
+            <div class="meta">
+              <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
+              <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+              <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="block-21 mb-4 d-flex">
+          <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+          <div class="text">
+            <h3 class="heading"><a href="#">Feeling Stressed? Learn the Health Benefits of Having a Pet</a></h3>
+            <div class="meta">
+              <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
+              <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+              <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+        <h2 class="footer-heading">Quick Links</h2>
+        <ul class="list-unstyled">
+          <li><a href="#" class="py-2 d-block">Home</a></li>
+          <li><a href="#" class="py-2 d-block">Shop</a></li>
+          <li><a href="#" class="py-2 d-block">Pet Care</a></li>
+          <li><a href="#" class="py-2 d-block">Special Places</a></li>
+          <li><a href="#" class="py-2 d-block">Blog</a></li>
+          <li><a href="#" class="py-2 d-block">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+        <h2 class="footer-heading">Have a Questions?</h2>
+        <div class="block-23 mb-3">
+          <ul>
+            <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. River View, Ahmedabad, Gujarat, India</span></li>
+            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91 12345 67890</span></a></li>
+            <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text"><span class="__cf_email__" data-cfemail="076e696168477e68727563686a666e692964686a">[email&#160;protected]</span></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <p class="copyright">
+          Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+</body>
+
+<!-- Mirrored from preview.colorlib.com/theme/petsitting/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 27 Jan 2021 05:10:15 GMT -->
+
+</html>
