@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-md-6 d-flex align-items-center">
           <p class="mb-0 phone pl-md-2">
-            <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 12345 67890</a>
+            <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +91 9898982021</a>
             <a href="#">
               <span class="fa fa-paper-plane mr-1"></span>
               <span class="__cf_email__"
@@ -288,7 +288,7 @@
                             <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <div class="form-group">
                             <label class="label" for="subject">Mobile No.</label>
                             <input type="text" class="form-control" name="mobile-no" id="mobile-no" placeholder="Mobile No.">
@@ -308,9 +308,18 @@
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
-                            <input type="submit" value="Submit" style="font-weight: bold;"
-                                class="btn btn-primary">
-                            <div class="submitting"></div>
+<!--                             <input type="submit" value="Submit" style="font-weight: bold;"
+                                class="btn btn-primary"> -->
+                            <button type="button" style="font-weight: bold;" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+<!--                             <div class="submitting"></div> -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="alert alert-success alert-dismissible">
+                                    <a  class="close" data-dismiss="modal" aria-label="close">&times;</a>
+                                    <strong>Success!</strong> We will get back to you soon!
+                                  </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
