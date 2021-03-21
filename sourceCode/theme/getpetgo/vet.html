@@ -326,6 +326,48 @@
             </form>
         </div>
     </div>
+    <!-- Right part of the row-->
+    <div class="col-md-7">
+        <div class="contact-wrap w-100 p-md-5 p-4">
+            <h3 class="mb-4" style="font-weight: bold;">Contact Us</h3>
+            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="label" for="zipcode">Zip Code</label>
+                            <input type="number" class="form-control" name="zipcode" id="zipcode" placeholder="Enter Your Area Zip Code" maxlength="6">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <div class="button-group">
+                            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">Type of Veterinarian</button>
+                            <ul class="dropdown-menu">
+                              <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox" />&nbsp;Food Animal Vet</a></li>
+                              <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox" />&nbsp;Health Coach</a></li>
+                              <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox" />&nbsp;Companion Animal Vet</a></li>
+                              <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox" />&nbsp;Veterinary Pharmacologist</a></li>
+                              <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox" />&nbsp;Veterinary Dermatologist</a></li>                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                  <div class="col-md-12">
+                      <div class="form-group">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Search</button>
+                            <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="alert alert-danger alert-dismissible">
+                                    <a  class="close" data-dismiss="modal" aria-label="close">&times;</a>
+                                    <strong>Sorry!</strong>This service is not available as of now.
+                                  </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="col-md-5 d-flex align-items-stretch">
         <div class="info-wrap w-100 p-5 img" style="background-image: url(images/img.jpg);">
         </div>
