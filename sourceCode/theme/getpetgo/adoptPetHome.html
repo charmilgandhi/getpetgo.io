@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
     <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adopt.css">
 
     <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
     <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
@@ -126,7 +126,72 @@
             </div>
         </div>
     </nav>
-
+    <section class="hero" style="background-image: url('images/bg_4.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-lg-8 text-center pb-5">
+              <div class="row justify-content-center">
+                <div class="col-lg-9">
+                  <h1 class="">Don't Buy, Adopt.</h1>
+                  <p>Adopt, They also need Love.<i class="fa fa-heart"></i></p>
+                </div>
+              </div>
+              <form action="#" class="search-property-1 mt-md-5">
+                <div class="row g-0">
+                  <div class="col-md d-flex">
+                    <div class="form-group p-3">
+                      <div class="form-field">
+                        <div class="icon"><span class="fa fa-search"></span></div>
+                        <input type="text" class="form-control" placeholder=" You looking for?">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex">
+                    <div class="form-group p-3">
+                      <div class="form-field">
+                        <div class="icon"><span class="fa fa-map-marker"></span></div>
+                        <input type="text" class="form-control" placeholder="Search Location">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex">
+                    <div class="form-group p-3">
+                      <div class="form-field">
+                        <div class="select-wrap">
+                          <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                          <select name="" id="" class="form-control">
+                            <option value="">All Categories</option>
+                            <option value="">Food &amp; Drinks</option>
+                            <option value="">Hotel</option>
+                            <option value="">Shopping</option>
+                            <option value="">Beauty</option>
+                            <option value="">Fitness</option>
+                            <option value="">Bar &amp; Club</option>
+                            <option value="">Games</option>
+                            <option value="">Places</option>
+                            <option value="">Parks</option>
+                            <option value="">Theater</option>
+                            <option value="">Sports</option>
+                            <option value="">Health</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md d-flex">
+                    <div class="form-group d-flex w-100 border-0">
+                      <div class="form-field w-100 align-items-center d-flex align-items-stretch">
+                        <a href="#" class="btn btn-primary d-block w-100 d-flex align-items-center justify-content-center py-3"><span><i class="fa fa-search"></i> Search</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row d-flex">
@@ -334,7 +399,79 @@
             </div>
         </div>
     </section>
-
+    <main>
+        <div class="donate-module">
+            <form class="donate-module-content" id="ccform" novalidate="" autocomplete="on" method="POST">
+                <h2 class="donation-module-title">Donate Today</h2>
+                <fieldset class="donation-module-content-amount active">
+                    <div class="donation-instructions">
+                        <p>Choose the amount you'd like to give.</p>
+                    </div>
+                    <div class="donation-module-amounts">
+                        <h4 class="donation-module-subtitle">Amount</h4>
+                        <ul>
+                            <li class="amount amount-cont-1"><input type="radio" name="amount" id="amount_10" value="10" tabindex="10" /><label for="amount_10">$10</label></li>
+                            <!--<li class="amount amount-count-2"><input type="radio" name="amount" id="amount_35" value="35" tabindex="10" /><label for="amount_35">$35</label></li>-->
+                            <li class="amount amount-cont-3"><input type="radio" name="amount" id="amount_50" value="50" tabindex="50" /><label for="amount_50">$50</label></li>
+                            <li class="amount amount-count-4"><input type="radio" name="amount" id="amount_100" value="100" tabindex="10" /><label for="amount_100">$100</label></li>
+                            <li class="amount amount-count-5"><input type="radio" name="amount" id="amount_250" value="250" tabindex="10" /><label for="amount_250">$250</label></li>
+                            <li class="amount amount-count-6"><input type="radio" name="amount" id="amount_500" value="500" tabindex="10" /><label for="amount_500">$500</label></li>
+                            <div class="amount-count-other"><label for="amount_other">Enter Other Amount</label><input type="tel" name="amount_other" id="amount_other" placeholder="Enter Other Amount" tabindex="18" /></div>
+                            <div class="amount-reoccuring"><input type="checkbox" name="amount_reoccuring" id="amount_reoccuring" /><label for="amount_reoccuring"><span></span> Make this a reoccuring donation.</label></div>
+                        </ul>
+                    </div>
+                    <!--<div class="next-step">
+                        <p class="impact-statement"><span class="impact-amount">$35</span> can pay for: <span class="impact-results"></span></p><button class="btn btn--large next" type="button" name="next" value="next">Next</button>
+                    </div>-->
+                </fieldset>
+                <fieldset class="donation-module-content-name previous">
+                    <div class="donation-instructions">
+                        <p>Enter your information below.</p>
+                    </div>
+                    <div class="donation-module-information">
+                        <h4>Name and Information</h4>
+                        <div class="information-name">
+                            <div class="form-group">
+                                <div class="first-name"><label for="first-name">First Name</label><input type="text" id="first-name" placeholder="Grace" /></div>
+                                <div class="last-name"><label for="last-name">Last Name</label><input type="text" id="last-name" placeholder="Hopper" /></div>
+                            </div>
+                        </div>
+                        <div class="information-email"><label for="email">Email</label><input type="email" id="email" placeholder="abc@gmail.com" /></div>
+                    </div>
+                    <div class="next-step"><button class="btn btn--large next" type="button" name="next" value="next">Next</button></div>
+                </fieldset>
+                <fieldset class="donation-module-content-payment previous">
+                    <div class="donation-instructions">
+                        <p>Enter your payment details below.</p>
+                    </div>
+                    <div class="donation-module-information">
+                        <h4>Payment Details</h4>
+                    </div>
+                    <div class="information-cc"><label class="control-label" for="cc-number">Credit Card Number</label><input class="form-control cc-number" id="cc-number" type="tel" autocomplete="cc-number" placeholder="•••• •••• •••• ••••" required="required" /></div>
+                    <div class="form-group"><label class="control-label" for="cc-exp">Expiraton Date</label><input class="form-control cc-exp" id="cc-expa-month" type="tel" autocomplete="cc-exp" placeholder="MM / YYYY" required="required" data-stripe="exp-month" /></div>
+                    <div class="form-group last"><label class="control-label" for="cc-cvc">CVC <a id="cvc-help" href="">?</a></label><input class="form-control cc-cvc" id="cc-cvca" type="tel" autocomplete="off" placeholder="•••" required="required" data-stripe="cvc" /></div>
+                    <div class="next-step"><button class="btn btn--large btn--accent donate" name="donate" value="donate" type="submit">Donate</button></div>
+                </fieldset>
+                <div class="clearfix"></div>
+            </form>
+            <div class="progress-bar">
+                <div class="top-bar"></div>
+                <div class="step amount active">
+                    <p> <span>1</span> Amount</p>
+                </div>
+                <div class="step name">
+                    <p> <span>2</span> Name</p>
+                </div>
+                <div class="step payment last">
+                    <p> <span>3</span> Payment</p>
+                </div>
+                <div class="step--active">
+                    <div class="top-bar"></div>
+                </div>
+            </div>
+        </div>
+        <!--<p class="notes">Form does not post anywhere.</p>-->
+    </main>
     <footer class="footer">
   <div class="container">
     <div class="row">
@@ -435,6 +572,99 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-23581568-13');
+    </script>
+    <script>
+        // BUTTON SUBMISSION
+$('form').submit(function (e) {
+    e.preventDefault();
+});
+
+
+/* Donate Module - Amount Section - Impact Statement */
+// Amount Radio Label Button Events
+$('.amount label').on('click', function () {
+     var dollarAmount = parseInt($(this).text().replace('$', ''), 10);
+    var impactAmount = parseInt(dollarAmount / 10, 10);
+
+    // copy to impact statement
+    $('.impact-amount').text('$'+ dollarAmount);
+    $('.impact-results').text('180 days back to ' + impactAmount + ' girls.');
+    // Clear other amount donation, if any
+    $('#amount_other').val('');
+    // copy to donate button "Donate $50"
+    $('button.donate').text('Donate $' + dollarAmount);
+});
+
+// Other Donation Amount Events
+$('#amount_other').keyup(function () {
+    var dollarAmount = $(this).val();
+    var impactAmount = parseInt(dollarAmount / 10, 10);
+
+    // copy to impact statement
+    $('.impact-amount').text('$'+ dollarAmount);
+    $('.impact-results').text('180 days back to ' + impactAmount + ' girls.');
+    
+    $('.amount input[type=radio]').prop('checked', false);
+
+    // copy to donate button "Donate $50"
+    $('button.donate').text('Donate $' + dollarAmount);
+});
+
+
+/* Progress bar of the donate module */
+$('.step').on('click', function () {
+   
+    $('.step').removeClass("active");
+    $(this).addClass('active');
+    if ($('.amount').hasClass('active')) {
+        $('.step--active').css('left', '0%');
+        $('.donation-module-content-amount').addClass('active').removeClass('next').removeClass('previous');
+        if ($('.donation-module-content-name').hasClass('active')) {
+            $('.donation-module-content-name').removeClass('active').addClass('previous');
+
+        } else if ($('.donation-module-content-payment').hasClass('active')) {
+            $('.donation-module-content-payment').removeClass('active').addClass('previous');
+        }
+    } else if ($('.name').hasClass('active')) {
+        $('.step--active').css('left', '33.333%');
+        $('.donation-module-content-name').addClass('active').removeClass('next').removeClass('previous');
+
+
+        if ($('.donation-module-content-amount').hasClass('active')) {
+            $('.donation-module-content-amount').removeClass('active').addClass('next');
+        } else if ($('.donation-module-content-payment').hasClass('active')) {
+            $('.donation-module-content-payment').removeClass('active').addClass('previous');
+        }
+    } else if ($('.payment').hasClass('active')) {
+        $('.step--active').css('left', '66.666%');
+        $('.donation-module-content-payment').addClass('active').removeClass('next').removeClass('previous');
+        if ($('.donation-module-content-amount').hasClass('active')) {
+            $('.donation-module-content-amount').removeClass('active').addClass('next');
+        } else if ($('.donation-module-content-name').hasClass('active')) {
+            $('.donation-module-content-name').removeClass('active').addClass('next');
+
+        }
+    }
+});
+
+
+$(".donation-module-content-amount button.next").on('click', function () {
+    
+    $('.step').removeClass("active");
+    $('.name').addClass('active');
+    $('.step--active').css('left', '33.333%');
+    $('.donation-module-content-amount').addClass('next').removeClass('active');
+    $('.donation-module-content-name').removeClass('previous').removeClass('next').addClass('active');
+});
+
+$(".donation-module-content-name button.next").on('click', function () {
+    
+    $('.step').removeClass("active");
+    $('.payment').addClass('active');
+    $('.step--active').css('left', '66.666%');
+    $('.donation-module-content-name').addClass('next').removeClass('active');
+    $('.donation-module-content-payment').removeClass('previous').removeClass('next').addClass('active');
+});
     </script>
 </body>
 
